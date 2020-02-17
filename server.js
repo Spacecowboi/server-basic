@@ -1,8 +1,8 @@
 'use strict';
-
+require('dotenv').config();
 const express = require('express');
 const app = express();
-const PORT = 3001;
+const PORT = process.env.PORT;
 // app.get('/', function (req, res) {
 //   res.send('Hello World');
 // });
